@@ -1,0 +1,48 @@
+#Setting the working directory
+
+getwd()
+
+setwd('D:/DOCUMENTS/process documents/IUPUI/Spring 2021/Applied Statistics/Project/MI')
+getwd()
+
+#installing the required packages
+
+#install.packages('tidyverse')
+#install.packages('ggplot2')
+#install.packages("ggpubr")
+#install.packages("missMDA")
+#install.packages('ggfortify')
+#install.packages("ISLR")
+#install.packages("SmartEDA")
+#install.packages("xfun")
+#install.packages('nnet')
+
+
+library("data.table")
+
+library("nnet")
+
+library("ISLR")
+
+library("SmartEDA")
+
+library('ggfortify')
+
+library('tidyverse')
+
+library('ggplot2')
+library("ggpubr")
+
+library('fastDummies')
+library('mltools')
+
+library('tidyverse')
+library('ggplot2')
+library("ggpubr")
+library("corrplot")
+
+
+
+#reading the data
+
+newdata <- data.frame(read.csv('Myocardial infarction complications Database.csv'))
